@@ -1,0 +1,10 @@
+// Config
+@import 'config/variables'; 
+@import 'config/base.scss';
+@import 'config/layout.scss';
+
+// Components
+@import 'components/home.scss';
+@import 'components/sidebar.scss';
+@import 'components/projects.scss';
+@import 'components/card.scss';

@@ -1,0 +1,20 @@
+.home {
+  height: 54rem;
+  display: flex;
+  margin-top: 2rem;
+  background-color: #ffffffe0;
+  border-radius: 20px;
+  &__sidebar {
+    width: 25%;
+    padding: 3rem 0rem 0rem 2rem;
+    border-right: 3px solid #e7e7e7;
+  }
+  &__main {
+    padding: 3rem 2rem;
+    width: 75%
+  }
+}
+
+.border {
+  height: 100%;
+}

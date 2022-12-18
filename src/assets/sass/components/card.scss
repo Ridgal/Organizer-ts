@@ -1,0 +1,29 @@
+.content {
+  display: flex;
+  justify-content: space-between;
+  &__card {
+    width: 32%;
+    background-color: #afe9d529;
+    border-radius: 12px;
+    height: 7rem;
+    padding: 1rem 0.5rem 1rem 0.5rem;
+    &__title {
+      padding-inline: 5px;
+    }
+    &__btn {
+      width: 100%;
+      border-radius: 10px;
+      height: 3rem;
+      margin-top: 1rem;
+      background-color: #afe9d570;
+      &__icon {
+        font-size: 1.5rem;
+        color: #0dc11b;
+      }
+    }
+    &__btn:hover {
+      background-color: #58cfa570;
+      transition: 0.5s;
+    }
+  }
+}
